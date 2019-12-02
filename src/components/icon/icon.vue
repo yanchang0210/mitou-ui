@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'VisIcon',
+  name: 'Icon',
   props: {
     icon: {
       type: String,

@@ -2,9 +2,9 @@ import Button from './components/button'
 import Icon from './components/icon'
 
 const components = {
-  VisBtn: Button,
-  BtnGroup: Button.Group,
-  VisIcon: Icon
+  MtButton: Button,
+  ButtonGroup: Button.Group,
+  MtIcon: Icon
 }
 
 const install = function (Vue) {

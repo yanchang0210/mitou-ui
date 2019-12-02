@@ -1,12 +1,12 @@
 <template>
   <button :class="classes" @click="handleClick">
-    <vis-icon
+    <icon
       class="icon"
       :icon="icon"
       :color="iconColor"
       :size="iconSize"
-      v-if="icon && !loading"></vis-icon>
-    <vis-icon class="icon icon-loading" v-if="loading" icon="Loading"></vis-icon>
+      v-if="icon && !loading"></icon>
+    <icon class="icon icon-loading" v-if="loading" icon="Loading"></icon>
     <div class="content" v-if="showSlot">
       <slot></slot>
     </div>
@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import VisIcon from '../icon'
+import Icon from '../icon'
 export default {
-  name: 'VisBtn',
+  name: 'Button',
   components: {
-    VisIcon
+    Icon
   },
   props: {
     type: {
