@@ -1,10 +1,9 @@
 {
   "name": "mitou-ui",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "main": "/dist/mitou-ui.umd.min.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --target lib --name mitou-ui src/index.js",
     "test": "karma start --single-run",
     "lint": "vue-cli-service lint"
